@@ -1,0 +1,86 @@
+
+
+.top-navigation {
+  background-color: #f72210;
+  width: 100%;
+  height: 95px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  width: 100%;
+  height: 56px;
+}
+
+.main-section {
+  width: 100%;
+  height: auto;
+}
+
+
+.featured-section img {
+  width: 343px;
+  height: 229px;
+}
+
+
+.top-story img {
+  width: 506px;
+  height: 312px;
+}
+
+.latest-img {
+    width: 135px;
+    height: 90px;
+}
+
+.travel-image img {
+  width: 243px;
+  height: 164px;
+}
+
+
+.img-story {
+  width: 135px;
+  height: 90px;
+}
+
+
+.img-cover {
+  width: 290px;
+  height: 290px;
+}
+
+.editor-img {
+  width: 290px;
+}
+
+
+.slideshow-img {
+  width: 397px;
+  height: 265px;
+}
+
+
+.us-img {
+  width: 397px;
+  height: 265px;
+}
+
+
+.side-img {
+  width: 135px;
+  height: 90px;
+}
+
+.social-icons,
+.footer-links,
+.footer-countries {
+  list-style: none;
+}
+
+.social-icons li,
+.footer-links li,
+.footer-countries li {
+  display: inline-block;
+}
