@@ -67,9 +67,12 @@ body {
   padding: 3px 15px;
 }
 
+.navbar-brand {
+  display: none;
+}
+
 .main-navigation {
   width: 100%;
-  height: 56px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -94,6 +97,18 @@ a.nav-link.search-icon {
   font-size: 18px !important;
   margin-top: 3px !important;
   color: rgba(0,0,0,.55) !important;
+}
+
+.nav-item {
+  border-left-color: #d9d9d9;
+  flex-grow: 1;
+  text-align: center;
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.nav-item:nth-child(1) {
+  border-left: none;
 }
 
 .main-section {
