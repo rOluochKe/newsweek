@@ -89,7 +89,7 @@ body {
   font-size: 21px;
   line-height: 24px;
   font-weight: 700;
-  padding-right: 50px;
+  padding: 0 27px;
 }
 
 a.nav-link.search-icon {

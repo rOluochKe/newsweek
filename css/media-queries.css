@@ -1,0 +1,162 @@
+@media only screen and (max-width: 767px) {
+  .main-section {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    margin: 2px auto;
+    padding: 0;
+  }
+
+  .center-feature {
+    padding: 15px;
+  }
+
+  .featured-section {
+    display: none;
+  }
+
+  .main-featured-article {
+    margin-left: -40px;
+  }
+
+  .featured:nth-child(1) {
+    margin-bottom: 25px;
+  }
+
+  .all-stories {
+    margin-left: -40px;
+  }
+
+  .opinion-articles li {
+    margin-bottom: 15px;
+  }
+
+  .opinion-articles li .col-md-9 {
+    /* margin-left: -60px; */
+  }
+
+  .opinion-section-middle {
+    margin-top: 30px !important;
+  }
+
+  .sided .col-md-7.col-sm-7 {
+    /* margin-left: -80px; */
+  }
+
+  .opinion-section-top {
+    display: none;
+  }
+
+  .issue {
+    width: 200px;
+  }
+
+  .img-cover-ad {
+    width: 100%;
+    height: auto;
+  }
+
+  .push-up {
+    position: relative;
+    top: 0;
+  }
+
+  .para-cover {
+    width: 100px;
+  }
+
+  .cat-cover {
+    /* left: -230px; */
+  }
+
+  .equal-height {
+    height: auto;
+    margin-bottom: 25px;
+  }
+
+  .img-cover {
+    width: 100%;
+    height: auto;
+  }
+
+  #sept-issue {
+    margin-bottom: -60px;
+  }
+
+  .magazine,
+  .editor,
+  .slideshow,
+  .us-category,
+  .world-category,
+  .busines-category,
+  .tech-category,
+  .cullture-category,
+  .sports-category {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .editor-img,
+  .slideshow-img,
+  .us-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .us-article {
+    margin-bottom: 30px;
+  }
+
+  .side-img {
+    width: 200px;
+    height: auto;
+    margin-right: -10px;
+    margin-bottom: 10px;
+  }
+
+  .latest-img {
+    width: 200px;
+    height: auto;
+    margin-left: -15px;
+  }
+
+  .img-story {
+    width: 100%;
+    height: auto;
+    margin-left: -15px;
+  }
+
+  .opinion-articles li img {
+    margin-left: -15px;
+    width: 100px;
+    height: auto;
+  }
+
+  .sidebar-list {
+    margin-top: 20px;
+  }
+
+  .img-two {
+    position: relative;
+    top: 0;
+    left: 55px;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .img-story {
+    width: 150px;
+    height: auto;
+  }
+
+  .more-article {
+    margin-left: 0;
+  }
+
+  .opinion-articles li img {
+    margin-left: -15px;
+    width: 63px;
+    height: auto;
+  }
+}
