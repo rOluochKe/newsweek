@@ -10,7 +10,7 @@ body {
   color: #333;
   font-size: 13px;
   line-height: 18px;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
@@ -96,7 +96,7 @@ a.nav-link.search-icon {
   font-weight: 200 !important;
   font-size: 18px !important;
   margin-top: 3px !important;
-  color: rgba(0,0,0,.55) !important;
+  color: rgba(0, 0, 0, .55) !important;
 }
 
 .nav-item {
@@ -126,7 +126,7 @@ a.nav-link.search-icon {
 }
 
 .feat-article {
-    width: 342px;
+  width: 342px;
 }
 
 .featured-title {
@@ -134,7 +134,7 @@ a.nav-link.search-icon {
   font-size: 16px;
   line-height: 16px;
   font-weight: bold;
-  color: rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, .4);
 }
 
 .give-me-line {
@@ -156,7 +156,7 @@ a.nav-link.search-icon {
 }
 
 .all-stories::-webkit-scrollbar {
- display: none;
+  display: none;
 }
 
 .featured-section img {
