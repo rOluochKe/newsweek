@@ -599,7 +599,7 @@ a.nav-link.search-icon {
 
 .us-img {
   width: 100%;
-  height: 265px;
+  height: auto;
 }
 
 .sidebar-width {
