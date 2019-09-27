@@ -1,3 +1,7 @@
+@media only screen and (max-width: 992px) {
+
+}
+
 @media only screen and (max-width: 767px) {
   .main-section {
     background: #fff;
@@ -31,16 +35,8 @@
     margin-bottom: 15px;
   }
 
-  .opinion-articles li .col-md-9 {
-    /* margin-left: -60px; */
-  }
-
   .opinion-section-middle {
     margin-top: 30px !important;
-  }
-
-  .sided .col-md-7.col-sm-7 {
-    /* margin-left: -80px; */
   }
 
   .opinion-section-top {
@@ -63,10 +59,6 @@
 
   .para-cover {
     width: 100px;
-  }
-
-  .cat-cover {
-    /* left: -230px; */
   }
 
   .equal-height {
@@ -142,6 +134,19 @@
     left: 55px;
   }
 
+  .opinion-articles li .col-md-9 {
+    margin-left: -60px;
+  }
+
+  .latest-news {
+    margin-left: -75px !important;
+    margin-top: 20px;
+  }
+
+  .article-story .col-xl-7 {
+    margin-left: -150px;
+  }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -152,11 +157,74 @@
 
   .more-article {
     margin-left: 0;
+    position: relative;
+    top: -100px;
+    left: 150px;
+    width: 70%;
   }
 
   .opinion-articles li img {
     margin-left: -15px;
     width: 63px;
     height: auto;
+  }
+
+  .cat-cover {
+    position: relative;
+    top: -45px;
+    left: 140px;
+  }
+
+  .all-stories li {
+    margin-bottom: -100px;
+  }
+
+  .opinion-articles li .col-md-9 {
+    position: relative;
+    width: 85%;
+    top: -55px;
+    left: 70px;
+  }
+
+  .opinion-articles li {
+    margin-bottom: -60px;
+  }
+
+  .latest-img {
+    width: 150px;
+    height: auto;
+    margin-left: -15px;
+  }
+
+  .latest-news {
+    width: 68%;
+    position: relative;
+    top: -90px;
+    left: 160px;
+  }
+
+  .opinion-middle-articles .sided {
+    margin-bottom: -25px;
+  }
+
+  .side-img {
+    width: 150px;
+    height: auto;
+    margin-right: -10px;
+    margin-bottom: 10px;
+  }
+
+  .col-xl-7 .sidebar-item-link {
+    position: relative;
+    top: -100px;
+    left: 165px;
+  }
+
+  .row.sidebar-list li {
+    margin-bottom: -40px;
+  }
+
+  .equinox {
+    width: 67%;
   }
 }
