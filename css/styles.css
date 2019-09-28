@@ -137,11 +137,6 @@ a.nav-link.search-icon {
   color: rgba(3, 3, 3, .4);
 }
 
-.give-me-line {
-  border-top: 1px solid #d9d9d9;
-  margin-bottom: 15px;
-}
-
 .all-stories li {
   border-top: 1px solid #d9d9d9;
   padding-top: 15px;
@@ -820,4 +815,27 @@ a.nav-link.search-icon {
 .footer-middle {
   padding-left: 55px;
   padding-right: 55px;
+}
+
+.culture-travel {
+  width: 95%;
+  position: relative;
+  left: 35px;
+}
+
+.more-stories .featured-title {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.main-featured-article .featured-title {
+  margin-left: 35px;
+}
+
+.culture-resize {
+  margin-left: -39px;
+}
+
+.culture-travel .featured-title {
+  margin-left: 0;
 }

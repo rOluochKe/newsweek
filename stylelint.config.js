@@ -9,6 +9,7 @@ module.exports = {
         "first-nested",
       ],
       ignore: ["after-comment"],
+      ignore: ["order-alphabetical"],
     } ],
     "at-rule-name-case": "lower",
     "at-rule-name-space-after": "always-single-line",
@@ -25,6 +26,7 @@ module.exports = {
     "comment-empty-line-before": [ "always", {
       except: ["first-nested"],
       ignore: ["stylelint-commands"],
+      ignore: ["order-alphabetical"],
     } ],
     "comment-whitespace-inside": "always",
     "custom-property-empty-line-before": [ "always", {
@@ -35,6 +37,7 @@ module.exports = {
       ignore: [
         "after-comment",
         "inside-single-line-block",
+        "order-alphabetical",
       ],
     } ],
     "declaration-bang-space-after": "never",
@@ -55,6 +58,7 @@ module.exports = {
       ignore: [
         "after-comment",
         "inside-single-line-block",
+        "order-alphabetical",
       ],
     } ],
     "function-comma-newline-after": "always-multi-line",
@@ -85,6 +89,7 @@ module.exports = {
     "rule-empty-line-before": [ "always-multi-line", {
       except: ["first-nested"],
       ignore: ["after-comment"],
+      ignore: ["order-alphabetical"],
     } ],
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
