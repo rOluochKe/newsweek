@@ -47,7 +47,6 @@ module.exports = {
     "declaration-colon-newline-after": "always-multi-line",
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
-    "declaration-block-no-shorthand-property-overrides": true,
     "declaration-empty-line-before": [ "always", {
       except: [
         "after-declaration",
