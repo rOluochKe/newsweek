@@ -35,6 +35,7 @@ module.exports = {
       ignore: [
         "after-comment",
         "inside-single-line-block",
+        "order/properties-alphabetical-order": null
       ],
     } ],
     "declaration-bang-space-after": "never",
@@ -105,6 +106,5 @@ module.exports = {
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
     "value-list-max-empty-lines": 0,
-    "order/properties-alphabetical-order": null
   },
 }
