@@ -17,6 +17,7 @@ To run this project, download it locally on your laptop using npm:
 ```
 $ clone the repo: git clone https://github.com/rOluochKe/newsweek.git
 $ change directory: cd newsweek
+$ run npm install
 $ Double click index.html - It will open in your browser
 ```
 ## Author
