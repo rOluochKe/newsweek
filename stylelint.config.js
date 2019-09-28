@@ -35,7 +35,6 @@ module.exports = {
       ignore: [
         "after-comment",
         "inside-single-line-block",
-        "order/properties-alphabetical-order": null
       ],
     } ],
     "declaration-bang-space-after": "never",
@@ -48,6 +47,7 @@ module.exports = {
     "declaration-colon-newline-after": "always-multi-line",
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
+    "declaration-block-properties-order": null,
     "declaration-empty-line-before": [ "always", {
       except: [
         "after-declaration",
