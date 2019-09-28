@@ -93,10 +93,10 @@ body {
 }
 
 a.nav-link.search-icon {
-  font-weight: 200 !important;
-  font-size: 18px !important;
-  margin-top: 3px !important;
-  color: rgba(0, 0, 0, .55) !important;
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 3px;
+  color: rgba(0, 0, 0, .55);
 }
 
 .nav-item {
@@ -381,7 +381,7 @@ a.nav-link.search-icon {
 }
 
 .feat-img {
-  width: 100% !important;
+  width: 100%;
 }
 
 .travel-image img {

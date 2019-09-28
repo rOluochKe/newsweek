@@ -1,19 +1,23 @@
-# newsweek
-Using Bootstrap - Built a website clone for newsweek magazine homepage
+## Newsweek Clone
+In this project, you’ll get a chance to try out `Twitter’s Bootstrap framework` by building a site that actually uses it – [Newsweek](https://www.newsweek.com/)
 
-# Technologies used
-### HTML5
-### CSS3
-### Fontawesome
-### Bootstrap4
+* [Technologies](#technologies)
+* [How to Install](#how-to-install)
+* [Author](#author)
 
-# How to install
-### git clone https://github.com/rOluochKe/newsweek.git
-### cd newsweek
-### Double click index.html - It will open in your browser
+## Technologies
+* HML5
+* CSS3
+* Bootstrap4
+* Fontawesome Icons
 
-# Contributors
-### rOluochKe (https://github.com/rOluochKe)
+## How to Install
+To run this project, download it locally on your laptop using npm:
 
-# License
-MIT Licensed
+```
+$ clone the repo: git clone https://github.com/rOluochKe/newsweek.git
+$ change directory: cd newsweek
+$ Double click index.html - It will open in your browser
+```
+## Author
+Raymond Oluoch [My GitHub Profile](https://github.com/rOluochKe)
