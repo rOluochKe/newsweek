@@ -299,12 +299,12 @@ a.nav-link.search-icon {
   margin-right: 0;
 }
 
-.sidebar-list li:nth-child(1) {
-  border-top: none;
-}
-
 .footer-links li {
   display: inline-block;
+}
+
+.sidebar-list li:nth-child(1) {
+  border-top: none;
 }
 
 .opinion-articles li:nth-child(2),
