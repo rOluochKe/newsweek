@@ -276,8 +276,7 @@ a.nav-link.search-icon {
 }
 
 .opinion-articles li,
-.opinion-middle-articles li,
-.sidebar-list li {
+.opinion-middle-articles li {
   border-top: 1px solid #ddd;
   padding-top: 15px;
   margin-left: 0;
@@ -292,6 +291,10 @@ a.nav-link.search-icon {
   display: inline-block;
 }
 
+.footer-links li {
+  display: inline-block;
+}
+
 .opinion-articles li:nth-child(2),
 .opinion-middle-articles li:nth-child(2) {
   border-top: none;
@@ -299,10 +302,10 @@ a.nav-link.search-icon {
 
 .sidebar-list li {
   list-style: none;
-}
-
-.footer-links li {
-  display: inline-block;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .sidebar-list li:nth-child(1) {
