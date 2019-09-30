@@ -39,6 +39,7 @@ module.exports = {
     } ],
     "declaration-bang-space-after": "never",
     "declaration-bang-space-before": "always",
+    "order/properties-alphabetical-order": null,
     "declaration-block-semicolon-newline-after": "always-multi-line",
     "declaration-block-semicolon-space-after": "always-single-line",
     "declaration-block-semicolon-space-before": "never",
