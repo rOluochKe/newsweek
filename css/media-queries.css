@@ -1080,6 +1080,11 @@
         margin-left: -15px;
       }
 
+      .featured-section img {
+        width: 100%;
+        height: auto;
+      }
+
       .opinion-articles li img {
         margin-left: -15px;
         width: 65px;
@@ -1087,11 +1092,6 @@
 
       .feat-article {
         width: 100%;
-      }
-
-      .featured-section img {
-        width: 100%;
-        height: auto;
       }
 
       .center-feature {
