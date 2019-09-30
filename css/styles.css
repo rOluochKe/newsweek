@@ -1,8 +1,5 @@
-/* Logo Font */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
-/* Navigation Font */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
-/* Culture and Travel */
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
 
 body {
@@ -180,6 +177,9 @@ a.nav-link.search-icon {
 .culture-travel {
   background-color: #f4f5f7;
   padding: 15px 0 1px;
+  width: 95%;
+  position: relative;
+  left: 35px;
 }
 
 .culture-travel h3 {
@@ -191,7 +191,7 @@ a.nav-link.search-icon {
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
-  color: #333333;
+  color: #333;
 }
 
 .more-title {
@@ -254,7 +254,7 @@ a.nav-link.search-icon {
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
-  color: #333333;
+  color: #333;
 }
 
 .sidebar-articles {
@@ -284,13 +284,34 @@ a.nav-link.search-icon {
   margin-right: 0;
 }
 
+.social-icons li {
+  display: inline-block;
+}
+
+.footer-countries li {
+  display: inline-block;
+}
+
 .opinion-articles li:nth-child(2),
 .opinion-middle-articles li:nth-child(2) {
   border-top: none;
 }
 
-.row.sidebar-list li:nth-child(1) {
+.sidebar-list li {
+  list-style: none;
+}
+
+.footer-links li {
+  display: inline-block;
+}
+
+.sidebar-list li:nth-child(1) {
   border-top: none;
+}
+
+.travel-image img {
+  width: 243px;
+  height: 164px;
 }
 
 .opinion-articles li img {
@@ -314,7 +335,7 @@ a.nav-link.search-icon {
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
-  color: #555555;
+  color: #555;
   margin-top: 5px;
 }
 
@@ -354,7 +375,7 @@ a.nav-link.search-icon {
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
-  background: #666666;
+  background: #666;
   padding: 10px 20px;
 }
 
@@ -377,11 +398,6 @@ a.nav-link.search-icon {
 
 .feat-img {
   width: 100%;
-}
-
-.travel-image img {
-  width: 243px;
-  height: 164px;
 }
 
 .img-story {
@@ -437,6 +453,11 @@ a.nav-link.search-icon {
   border-top: 1px solid #d9d9d9;
   margin-top: -30px;
   padding-top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #f72210;
 }
 
 .title-heading-section {
@@ -560,7 +581,7 @@ a.nav-link.search-icon {
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
-  color: #333333;
+  color: #333;
   position: relative;
   top: -10px;
 }
@@ -587,7 +608,7 @@ a.nav-link.search-icon {
   font-size: 22px;
   line-height: 22px;
   font-weight: 700;
-  color: #000000;
+  color: #000;
   position: relative;
   top: -60px;
 }
@@ -601,14 +622,6 @@ a.nav-link.search-icon {
   width: 100%;
   margin-left: -25px;
   margin-top: -15px;
-}
-
-.title-category {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 22px;
-  line-height: 22px;
-  font-weight: 700;
-  color: #f72210;
 }
 
 .cat-link {
@@ -626,10 +639,6 @@ a.nav-link.search-icon {
   height: 90px;
   margin-right: -20px;
   margin-bottom: 10px;
-}
-
-.row.sidebar-list li {
-  list-style: none;
 }
 
 .sidebar-item-link {
@@ -773,17 +782,11 @@ a.nav-link.search-icon {
 }
 
 .footer-social a {
-  color: #666666;
+  color: #666;
 }
 
 .secondary-footer {
   border-top: 1px solid #d9d9d9;
-}
-
-.social-icons li,
-.footer-links li,
-.footer-countries li {
-  display: inline-block;
 }
 
 .footer-link a,
@@ -792,7 +795,7 @@ a.nav-link.search-icon {
   font-size: 14px;
   line-height: 15px;
   font-weight: 400;
-  color: #000000;
+  color: #000;
   padding-right: 16px;
 }
 
@@ -815,12 +818,6 @@ a.nav-link.search-icon {
 .footer-middle {
   padding-left: 55px;
   padding-right: 55px;
-}
-
-.culture-travel {
-  width: 95%;
-  position: relative;
-  left: 35px;
 }
 
 .more-stories .featured-title {
